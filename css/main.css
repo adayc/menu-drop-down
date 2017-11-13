@@ -16,57 +16,35 @@ body
  background-position:center top; /*Posicionamos el fondo en el centro*/
  background-repeat:no-repeat;/*Indicamos que no se repita el fondo*/
  background-size: 50%;/*Ajustamos el tamaño de la imagen de fondo*/
- font-family: 'Monoton', cursive;
+font-family:sans-serif;
 }
 
-
-
-h1{
-  margin:50px;
-  text-align: center;
-  text-decoration:underline;
-}
-
-hr{
-  margin:5px;
-}
-
-button{
-  margin:20px;
-  width:80px;
-  
-}
-
-/*Configuracion del menú navegador*/
-nav{
-  margin-left:20%;
-  text-align:center;
-  width:60%;
-}
-
-ul{
-  list-style:none;
-  background-color: #FFE5CC;
-}
-
-li:hover{
+header{
+  height:50px;
   background-color:lightcoral;
+  color:white;
 }
 
 a{
-  color:gray;
-  text-decoration: none;
+  color:whitesmoke;
 }
 
-a:hover{
-  color:lightslategray;
+.menu ul{
+  background-color:lightcoral;
+  list-style:none;
 }
 
-/*Clases que aparecerán y desaparecerán de acuerdo al click*/
-.enabled-menu{
+.menu li{
+  border: 30px;
+  padding: 15px 10px;
+  display: inline-block;
+}
+
+.menu ul ul{
+  top: 50px;
+  position: absolute;
+}
+
+.menu .itemList li{
   display:block;
-}
-
-.disabled-menu{
-  display:none;
 }
