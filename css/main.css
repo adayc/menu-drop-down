@@ -48,3 +48,17 @@ a{
 .menu .itemList li{
   display:block;
 }
+
+.menu li:hover{
+  background-color: rgba(0,0,0,0.3);/*Opacidad con transparencia*/
+  cursor: pointer;
+}
+
+ /*Clases que apareceran y desaparecerán de acuerdo a JS*/
+.hide {
+  display:none;
+}
+
+.show {
+  display: block;
+}
