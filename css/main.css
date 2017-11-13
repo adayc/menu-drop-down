@@ -12,7 +12,7 @@
 body
 {
  background-color:#FFE5CC;
- background-image: url('../assets/imgs/hamburguesa.jpg');
+ background-image: url('../assets/imgs/coder.png');
  background-position:center top; /*Posicionamos el fondo en el centro*/
  background-repeat:no-repeat;/*Indicamos que no se repita el fondo*/
  background-size: 50%;/*Ajustamos el tamaño de la imagen de fondo*/
