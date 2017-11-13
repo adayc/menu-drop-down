@@ -2,9 +2,11 @@
 _____________
 
 
-Un menú de hamburguesa nos permite tener escondido el menú y únicamente mostrar un botón (3 líneas horizontales) que cuando lo apretamos (o hacemos click), se muestra en la pantalla todas las opciones del menú.
+El menú drop down nos ayuda a ahorrar espacio en un menú, ya que agrupa elementos similares.
 
-![Menu-hamburguesa](assets/imgs/menu-hamburguesa.gif)
+
+
+![Menu-hamburguesa](assets/imgs/menu-drop-down.gif)
 
 ## Detalles adicionales
 -Para este maquetado se empleo : HTML5, CSS3 y Javascript.
