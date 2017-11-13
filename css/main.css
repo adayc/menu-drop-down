@@ -1,0 +1,72 @@
+
+ /*Configuracion inicial de la página*/
+
+ * {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ margin:0;
+ padding: 0;
+}
+
+body
+{
+ background-color:#FFE5CC;
+ background-image: url('../assets/imgs/hamburguesa.jpg');
+ background-position:center top; /*Posicionamos el fondo en el centro*/
+ background-repeat:no-repeat;/*Indicamos que no se repita el fondo*/
+ background-size: 50%;/*Ajustamos el tamaño de la imagen de fondo*/
+ font-family: 'Monoton', cursive;
+}
+
+
+
+h1{
+  margin:50px;
+  text-align: center;
+  text-decoration:underline;
+}
+
+hr{
+  margin:5px;
+}
+
+button{
+  margin:20px;
+  width:80px;
+  
+}
+
+/*Configuracion del menú navegador*/
+nav{
+  margin-left:20%;
+  text-align:center;
+  width:60%;
+}
+
+ul{
+  list-style:none;
+  background-color: #FFE5CC;
+}
+
+li:hover{
+  background-color:lightcoral;
+}
+
+a{
+  color:gray;
+  text-decoration: none;
+}
+
+a:hover{
+  color:lightslategray;
+}
+
+/*Clases que aparecerán y desaparecerán de acuerdo al click*/
+.enabled-menu{
+  display:block;
+}
+
+.disabled-menu{
+  display:none;
+}
